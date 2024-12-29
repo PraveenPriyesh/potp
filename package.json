@@ -25,6 +25,9 @@
       "react-app/jest"
     ]
   },
+  "scripts": {
+  "start": "node src/components/backend/otp.js"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
