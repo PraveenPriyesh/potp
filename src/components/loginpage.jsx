@@ -8,7 +8,7 @@ function Login() {
     const [form,setForm]=useState([]);
     const handleGenerateOTP = (e) => {
         e.preventDefault();
-        fetch('https://otp-1-sede.onrender.com', {
+        fetch('https://potp-5.onrender.com/otp', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
