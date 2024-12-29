@@ -78,26 +78,7 @@ function Login() {
                 <button className="login-button" onClick={validate}>
                     Validate OTP
                 </button>
-                <div className="form-group">
-                    <label>Enter your password:</label>
-                    <input
-                        type="text"
-                        value={enteredOtp}
-                        onChange={(e) => setEnteredOtp(e.target.value)}
-                        required
-                        placeholder="Enter the password"
-                    />
-                </div>
-                <div className="form-group">
-                    <label>Confirm your password:</label>
-                    <input
-                        type="text"
-                        value={enteredOtp}
-                        onChange={(e) => setEnteredOtp(e.target.value)}
-                        required
-                        placeholder="Confirm your password"
-                    />
-                </div>
+                
             </form>
         </div>
     );
